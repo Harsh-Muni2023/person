@@ -244,3 +244,23 @@ html{
         right: -32%;
     }
 }
+@media only screen and (max-width: 410px){
+    .header,.about{
+        width: 222%;
+    }
+    .header h3{
+        font-size: 56px;
+    }
+    .text{
+        width: 59ch;
+    }
+    .text h1{
+        font-size: 40px;
+    }
+    .about img{
+        left: 7%;
+    }
+    .about{
+        height:125vh;
+    }
+}
